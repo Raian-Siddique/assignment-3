@@ -12,7 +12,6 @@ function feetToMile(feet) {
 
 
 //*********  Problem 2: woodCalculator**************
-
 function woodCalculator(chair, table, bed) {
     if (chair < 0 || table < 0 || bed < 0) {
         return 'Come on Man!!! Vaue of table chair cannot be negative.'
@@ -25,8 +24,6 @@ function woodCalculator(chair, table, bed) {
         return total;
     }
 }
-
-
 // var chair = 1;
 // var table = 3;
 // var bed = 4;
@@ -46,18 +43,17 @@ function brickCalculator(floor) {
         return ('Come on Man ! Building height cannot be negative...')
     }
     return totalFloor;
-
 }
 // var floor = 22;
 // var result = brickCalculator(floor);
 // console.log(result);
 
 
+
 // ***********Problem 4: tinyFriend ***********\\
 function tinyFriend(array) {
     var shortLength = Infinity;
     var shortest;
-
     if (array.length > 0) {
         for (var i = 0; i < array.length; i++) {
             if (array[i].length < shortLength) {
@@ -68,7 +64,6 @@ function tinyFriend(array) {
     }
     return shortest;
 }
-
 // var output = (['Hati', 'dim', 'Ptoll', 'Ziraff', 'du']);
 // var result = tinyFriend(output);
 // console.log(result);
